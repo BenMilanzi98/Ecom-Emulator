@@ -1,0 +1,27 @@
+{
+    "name": "escom-power-app",
+    "version": "1.0.0",
+    "description": "ESCOM Power Provider Web Application",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "dev": "nodemon server/server.js & npm run client-dev",
+        "client-dev": "cd src && npm run dev",
+        "build": "cd src && npm run build"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "sqlite3": "^5.1.6",
+        "bcrypt": "^5.1.0",
+        "jsonwebtoken": "^9.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "chart.js": "^4.3.0",
+        "react-chartjs-2": "^5.2.0",
+        "gsap": "^3.11.5",
+        "toastify-js": "^1.12.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.22"
+    }
+}

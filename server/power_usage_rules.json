@@ -1,0 +1,24 @@
+{
+    "daylight_hours": { "start": "06:00", "end": "18:00" },
+    "high_consumption_threshold": 1.5,
+    "warning_thresholds": {
+        "units_remaining_percentage": 20,
+        "estimated_days_remaining": 3
+    },
+    "device_timeout_alerts": {
+        "Cooker": 2,
+        "Hotplate": 1.5,
+        "Iron": 1,
+        "Hair Dryer": 0.5
+    },
+    "weather_impact": {
+        "raining": {
+            "lighting_usage_multiplier": 1.5, 
+            "ac_usage_multiplier": 0.8 
+        },
+        "sunny_hot": {
+            "ac_usage_multiplier": 1.5,
+            "lighting_usage_multiplier": 0.7
+        }
+    }
+}
