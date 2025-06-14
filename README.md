@@ -2,6 +2,42 @@
 
 A comprehensive web-based platform for monitoring, controlling, and optimizing household or business electricity consumption. This application provides real-time power usage tracking, device control, unit balance management, automated alerts, and detailed historical data reporting.
 
+## About
+
+The ESCOM Power Management Web Application is a modern solution designed to address the growing need for efficient electricity management in both residential and commercial settings. In today's world, where energy costs are rising and environmental consciousness is increasing, this application empowers users to take control of their power consumption through an intuitive and feature-rich interface.
+
+### Problem Statement
+Traditional electricity management systems often lack:
+- Real-time consumption insights
+- Remote device control capabilities
+- Proactive alerts for unusual usage
+- Detailed historical data analysis
+- User-friendly interfaces for monitoring
+
+### Our Solution
+This application bridges these gaps by providing:
+1. **Smart Monitoring**: Real-time tracking of power consumption with visual indicators and alerts
+2. **Device Management**: Complete control over connected appliances with individual power ratings
+3. **Automated Alerts**: Instant notifications for low balances, unusual consumption patterns, and device status changes
+4. **Historical Analytics**: Detailed consumption history and trends to help users make informed decisions
+5. **User-Friendly Interface**: Intuitive design that makes power management accessible to everyone
+
+### Impact
+The ESCOM Power Management Web Application helps users:
+- Reduce electricity costs through better consumption awareness
+- Prevent unexpected power outages with proactive alerts
+- Make data-driven decisions about energy usage
+- Contribute to environmental sustainability through efficient power management
+- Gain peace of mind with complete control over their power consumption
+
+### Technology
+Built with modern web technologies including React, Node.js, and SQLite, this application offers:
+- Responsive design for all devices
+- Secure user authentication
+- Real-time data updates
+- Scalable architecture
+- Cross-platform compatibility
+
 ## Features
 
 - **Real-time Power Monitoring**: Track current power consumption with dynamic visualizations
